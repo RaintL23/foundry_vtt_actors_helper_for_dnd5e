@@ -1,0 +1,10 @@
+{
+    "template": "follower_soldier",
+    "actor_type": "npc",
+    "name":"soldier test 2",
+    "race": null,
+    "attribute_array": "terrible",
+    "hit_dice": 20,
+    "size": "medium",
+    "neceorat": true
+}

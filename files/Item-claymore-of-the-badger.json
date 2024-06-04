@@ -1,0 +1,153 @@
+{
+  "folder": "f3Ck0Mv8IJXyFdnx",
+  "name": "Claymore of the Badger",
+  "type": "weapon",
+  "img": "raint-dm/adventures/Followers%20Adventure/Magic%20Items/Claymore-of-the-Great-Badger.jpg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Details: </strong><span class=\"userscript-roller userscript-render-roller\" title=\"Click to roll. SHIFT to roll a critical hit, CTRL to half damage (rounding down).\">2d6</span> slashing - heavy - two-handed</p><hr /><p>This weighty blade carries with it the strength of the mighty badger. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The sword has 3 charges and regain all expended charges daily at dawn. When you hit a Large or smaller creature with this weapon, you can expend 1 charge from it to push that creature 5 feet away from you.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "quantity": 1,
+    "weight": 2,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 1,
+    "equipped": true,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6+ @mod",
+          "slashing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "properties": [
+      "hvy",
+      "two"
+    ],
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "greatsword"
+    },
+    "attack": {
+      "bonus": "+1",
+      "flat": false
+    },
+    "container": null,
+    "summons": null,
+    "magicalBonus": null
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "effectActivation": false,
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "noConcentrationCheck": false,
+      "confirmTargets": "default"
+    },
+    "exportSource": {
+      "world": "neceorat-season-2-followers-adventure",
+      "system": "dnd5e",
+      "coreVersion": "11.315",
+      "systemVersion": "3.1.2"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "3.0.4",
+    "coreVersion": "11.315",
+    "createdTime": 1691521948493,
+    "modifiedTime": 1711069618115,
+    "lastModifiedBy": "rEkA5eyucpM7h5Ev"
+  }
+}
