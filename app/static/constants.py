@@ -10,9 +10,9 @@ JSON_NPC_TEMPLATE = {}
 
 # We are using the 5etools api (https://api.open5e.com/) endpoints because they put everything
 # in easy access to get the necessary data.
-# URL_ITEMS = "https://5etools-mirror-1.github.io/data/items.json"
-# URL_ITEMS_BASE = "https://5etools-mirror-1.github.io/data/items-base.json"
-# URL_ITEMS_MAGIC_VARIANTS = "https://5etools-mirror-1.github.io/data/magicvariants.json"
+URL_ITEMS = "https://5etools-mirror-1.github.io/data/items.json"
+URL_ITEMS_BASE = "https://5etools-mirror-1.github.io/data/items-base.json"
+URL_ITEMS_MAGIC_VARIANTS = "https://5etools-mirror-1.github.io/data/magicvariants.json"
 # URL_RACES = "https://5etools-mirror-1.github.io/data/races.json"
 # URL_SPELLS = "https://5etools-mirror-1.github.io/data/spells/"
 # URL_CLASSES = "https://5etools-mirror-1.github.io/data/class/"
