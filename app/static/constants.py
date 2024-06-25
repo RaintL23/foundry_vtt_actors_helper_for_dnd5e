@@ -4,6 +4,25 @@
 # SKILL FOR DND5E
 # acr ani arc ath dec his ins itm inv med nat prc prf per rel slt ste sur
 
+DAMAGE_TYPES = {
+    "A": "acid",
+    "B": "bludgeoing",
+    "C": "cold",
+    "F": "fire",
+    "O": "force",
+    "L": "lightning",
+    "N": "necrotic",
+    "P": "piercing",
+    "PO": "poison",
+    "PS": "psychic",
+    "R": "radiant",
+    "S": "slashing",
+    "T": "thunder"
+}
+
+ATTRIBUTES_FOR_DND5E = ["str", "dex", "con", "int", "wis", "cha"]
+"""ATTRIBUTES FOR DND5E"""
+
 JSON_USER_INIT_DATA = {}
 JSON_NPC_TEMPLATE = {}
 """TEMPLATE FOR APP INSTANCE USE"""
@@ -72,7 +91,7 @@ TEMPLATE_OPTIONS = {
                     "Halberd","Longsword","Maul","Shortsword","Warhammer"),
         "rg_mt_wp":("Longbow","heavy Crossbow"),
         "rena_rg_wp":("Musket",),
-        "armor":("heavy",),
+        "armor":("HA",),
         "shield": True
     },
     "follower_cleric": {
@@ -87,7 +106,7 @@ TEMPLATE_OPTIONS = {
         "ml_mt_wp":("Flail"),
         "rg_mt_wp":None,
         "rena_rg_wp":None,
-        "armor":("medium"),
+        "armor":("MA"),
         "shield": True
     },
 }
@@ -253,3 +272,4 @@ TEMPLATE_PROPERTY_NAME = {
     "versatile":"ver",
     "magic": "mgc"
 }
+"""TEMPLATE PROPERTY NAME"""
